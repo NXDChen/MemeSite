@@ -1,3 +1,92 @@
+.header {
+    padding-top: 5em;
+    height:50em;
+}
+
+.row {
+    text-align: center;
+}
+
+.mainimg {
+    border: 5px solid red;
+    border-radius: 50px;
+}
+
+.maintext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .title {
-    color: aqua;
+    font-size: 8em;
+    color: white;
+}
+
+.buttons {
+    padding-top: 1.5em;
+    display: flex;
+    height: 10em;
+    justify-content: space-evenly;
+}
+
+.button {
+    height: 7em;
+    width: 7em;
+    background-color: black;
+    border-radius: 100px;
+}
+
+.ca {
+    padding-top: 1em;
+    text-align: center;
+}
+
+.abouttitle {
+    font-size: 5em;
+}
+
+.sidetext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 2em;
+}
+
+.about {
+    padding-top: 4em;
+    height: 40em;
+}
+
+.tokenomics {
+    padding-top: 4em;
+    height: 35em;
+}
+
+.details {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.round {
+    height: 10em;
+    width: 10em;
+    border-radius: 100%;
+    background-color: greenyellow;
+}
+
+.tokentitle {
+    font-size: 5em;
+}
+
+.details {
+    padding-top: 3em;
+}
+
+.texttitle {
+    font-size: 2em;
+    margin: 0;
 }
