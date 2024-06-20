@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Playground';
+    src: url('fonts/Playground.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Playground !important;
+    color: white !important;
+}
+
 .header {
     padding-top: 5em;
     height:50em;
@@ -8,7 +20,7 @@
 }
 
 .mainimg {
-    border: 5px solid red;
+    border: 5px solid grey;
     border-radius: 50px;
 }
 
@@ -16,10 +28,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .title {
-    font-size: 8em;
+    font-size: 6em;
     color: white;
 }
 
@@ -33,7 +46,6 @@
 .button {
     height: 7em;
     width: 7em;
-    background-color: black;
     border-radius: 100px;
 }
 
@@ -75,7 +87,10 @@
     height: 10em;
     width: 10em;
     border-radius: 100%;
-    background-color: greenyellow;
+    background-image: url('ouila2.jpg');
+    background-size: 20em;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .tokentitle {
@@ -89,4 +104,29 @@
 .texttitle {
     font-size: 2em;
     margin: 0;
+}
+
+.telegram {
+    background: url('telegram.png');
+    background-size: 15em;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.dexscreener {
+    background: url('OIP.jpg');
+    background-size: 7em;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.x {
+    background: url('x.png ');
+    background-size: 7em;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.footer {
+    text-align: center;
 }
