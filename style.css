@@ -1,43 +1,54 @@
 @font-face {
-    font-family: 'Playground';
-    src: url('fonts/Playground.ttf') format('truetype');
+    font-family: 'MOD20';
+    src: url('fonts/MOD20.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
+@keyframes example {
+    0%  {left:200px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+
 body {
-    font-family: Playground !important;
-    color: white !important;
+    font-family: MOD20 !important;
+}
+
+.header-text {
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+}
+
+.page {
+    background-image: url('miu-background.png');
+    background-size: 10em;
+    background-color: #FDB0C0;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 5em;
 }
 
 .header {
-    padding-top: 5em;
-    height:50em;
-}
-
-.row {
-    text-align: center;
-}
-
-.mainimg {
-    border: 10px solid grey;
-    border-radius: 50px;
-}
-
-.maintext {
+    padding-top: 1em;
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
 
-.title {
-    font-size: 6em;
-    color: white;
+.miu-header {
+    border-radius: 100%;
+}
+
+.links {
+    height: 8em;
+    background-color: #312f2f;
 }
 
 .buttons {
-    padding-top: 1.5em;
+    padding-top: 0.5em;
     display: flex;
     height: 10em;
     justify-content: space-evenly;
@@ -49,61 +60,8 @@ body {
     border-radius: 100px;
 }
 
-.ca {
-    padding-top: 1em;
-    text-align: center;
-}
-
-.abouttitle {
-    font-size: 5em;
-}
-
-.sidetext {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.text {
-    font-size: 2em;
-}
-
-.about {
-    padding-top: 4em;
-    height: 40em;
-}
-
-.tokenomics {
-    padding-top: 4em;
-    height: 35em;
-}
-
-.details {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.round {
-    height: 10em;
-    width: 10em;
+.gallery-picture {
     border-radius: 100%;
-    background-image: url('ouila2.jpg');
-    background-size: 20em;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.tokentitle {
-    font-size: 5em;
-}
-
-.details {
-    padding-top: 3em;
-}
-
-.texttitle {
-    font-size: 2em;
-    margin: 0;
 }
 
 .telegram {
@@ -127,6 +85,30 @@ body {
     background-position: center center;
 }
 
-.footer {
+.row {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.col-sm {
+    display: flex;
+    justify-content: center;
+}
+
+.tokenomics-text {
+    font-size: 5em;
+}
+
+.tokenomic {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    animation-name: example;
+    animation-duration: 1s;
+    position: relative;
+
+}
+
+.tokenomics-img {
+    align-self: center;
 }
