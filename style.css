@@ -84,10 +84,6 @@ body {
     border-radius: 3em 0 3em 0;
 }
 
-.gallery-pic {
-    width: 100px;
-}
-
 .telegram {
     background: url('telegram.png');
     background-size: 15em;
@@ -138,6 +134,17 @@ body {
 }
 
 .gallery-content {
+    display: flex;
+    justify-content: center;
+}
+
+
+.gallery-pic {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-pic {
     display: flex;
     justify-content: center;
 }
