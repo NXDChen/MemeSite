@@ -42,7 +42,7 @@ body {
 .page {
     background-image: url('miu-background.png');
     background-size: 10em;
-    background-color: #FDB0C0;
+    background-color: #ffd6f3;
 }
 
 .logo {
@@ -63,7 +63,7 @@ body {
 
 .links {
     height: 8em;
-    background-color: #312f2f;
+    background-color: #e0d6ff;
 }
 
 .buttons {
