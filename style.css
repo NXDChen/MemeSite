@@ -19,7 +19,7 @@
 
 @keyframes animate-font-fade {
     0% { font-size: 0; }
-    100% { font-size: 2em; }
+    100% { font-size: 1.5em; }
 }
 
 body {
@@ -28,7 +28,7 @@ body {
 
 .header-text {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 0;
 }
 
