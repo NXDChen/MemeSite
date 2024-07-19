@@ -24,7 +24,7 @@
 
 body {
     font-family: Lemon !important;
-    color: #ff9aa2 !important;
+    color: #A7C7E7 !important;
 }
 
 .header-text {
@@ -41,7 +41,7 @@ body {
 }
 
 .page {
-    background-image: url('miu-background.png');
+    background-image: url('tap-background.png');
     background-size: 10em;
     background-color: #ffd6f3;
 }
